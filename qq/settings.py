@@ -139,11 +139,11 @@ STATICFILES_DIRS = (
         )
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_in_env", "static_root")
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_in_env", "static")
 
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_in_env", "media_root")
+MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_in_env", "media")
 
 #  Django Message Config
 from django.contrib.messages import constants as messages
